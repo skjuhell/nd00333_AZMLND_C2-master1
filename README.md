@@ -1,6 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
 # Operationalizing Machine Learning
 
  I executed a comprehensive machine learning project on Microsoft Azure. Employing the Bank Marketing Dataset, I trained a model with Azure Machine Learning Studio's AutoML feature. After deploying it through Azure Container Instance (ACI), I consumed the model via REST endpoints. Additionally, I automated the entire workflow by creating, publishing, and consuming a pipeline.
