@@ -85,7 +85,7 @@ In the lower screenshot you can also see the status of the pipeline marked as ac
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+[ink to a screen recording of the project in action](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FTo2D6YXr6nI&data=05%7C02%7Cjustin-raphael.hellermann%40eon.com%7C09d073acc2ae438088cf08dc0c4260e3%7Cb914a242e718443ba47c6b4c649d8c0a%7C0%7C0%7C638398726426354044%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=4OG%2B3AwMBlu0GFAo5n2bH13fuzjMGO0Kfl1ubiCjXfg%3D&reserved=0)
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
