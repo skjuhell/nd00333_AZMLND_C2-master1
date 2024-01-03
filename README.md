@@ -80,6 +80,9 @@ By iterating through the provided notebook and making adaptions where needed, we
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/pipeline2.png)
 In the lower screenshot you can also see the status of the pipeline marked as active and the REST endpoint.
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/pipeline.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/widgets.png)
+
+
 
 
 ## Screen Recording
