@@ -34,7 +34,6 @@ Once the training process has finished, we can have a look at the model performa
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/model_metrics2.png)
 
 
-
 3. Deploy the best model:
 
 - Select the top-performing model from the AutoML run.
@@ -49,7 +48,10 @@ Once the model is deployed you can find it in the model section.
 - Configure during the model deployment process or later via a Python script.
 - Monitor and track deployed model performance, as well as the number of successful and failed requests.
 
-By running the python script we enable the logging and get
+We first authenticate to be able to access our workspace
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/login.png)
+
+Once this was successful we enable the logging and get
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/logs_enabled.png)
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/aplicaation_insights_enabled.png)
 
@@ -64,7 +66,8 @@ Further we want to use swagger to interact with our application. Therefore we ex
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/swagger_api2.png)
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/swagger_api3.png)
 We can test the setup by running the endpoint.py script which sends a post request for two samples, the model is supposed to predict.
-![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/endpoint.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/endpoints.png)
+Since we get back to predictions (yes,no) we know our endpoint is working.
 
 
 6. Create and Publish a Pipeline:
@@ -73,7 +76,13 @@ We can test the setup by running the endpoint.py script which sends a post reque
 - Require a config.json file in the working directory.
 - Automate the entire process of model training and deployment using pipelines.
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+By iterating through the provided notebook and making adaptions where needed, we create and publish a pipeline for the model. The first screenshot shows the pipeline running.
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/pipeline2.png)
+In the lower screenshot you can also see the status of the pipeline marked as active and the REST endpoint.
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/pipeline.png)
+
+ 
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
