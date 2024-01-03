@@ -6,7 +6,7 @@
  I executed a comprehensive machine learning project on Microsoft Azure. Employing the Bank Marketing Dataset, I trained a model with Azure Machine Learning Studio's AutoML feature. After deploying it through Azure Container Instance (ACI), I consumed the model via REST endpoints. Additionally, I automated the entire workflow by creating, publishing, and consuming a pipeline.
 
 ## Architectural Diagram
-!(https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/workflow.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/workflow.png)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
