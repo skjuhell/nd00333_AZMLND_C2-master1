@@ -81,11 +81,9 @@ By iterating through the provided notebook and making adaptions where needed, we
 In the lower screenshot you can also see the status of the pipeline marked as active and the REST endpoint.
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/pipeline.png)
 
- 
-
 
 ## Screen Recording
-[ink to a screen recording of the project in action](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FTo2D6YXr6nI&data=05%7C02%7Cjustin-raphael.hellermann%40eon.com%7C09d073acc2ae438088cf08dc0c4260e3%7Cb914a242e718443ba47c6b4c649d8c0a%7C0%7C0%7C638398726426354044%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=4OG%2B3AwMBlu0GFAo5n2bH13fuzjMGO0Kfl1ubiCjXfg%3D&reserved=0)
+[Link to screen recording of the project in action](https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fyoutu.be%2FTo2D6YXr6nI&data=05%7C02%7Cjustin-raphael.hellermann%40eon.com%7C09d073acc2ae438088cf08dc0c4260e3%7Cb914a242e718443ba47c6b4c649d8c0a%7C0%7C0%7C638398726426354044%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=4OG%2B3AwMBlu0GFAo5n2bH13fuzjMGO0Kfl1ubiCjXfg%3D&reserved=0)
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Future Work
+We could enbale Deep Learning for the AutoML, use GPUs and enable Monitoring of the model in practice. Latter would be interesting to identify instances where we observe data drift or identify instances in which our model makes systematically wrong predictions.
