@@ -24,10 +24,21 @@ In the screenshot we see the data set is ready and can be used in the next step 
 - Configure parameters such as compute cluster, machine learning task type (e.g., classification), exit criterion, etc.
 - Train various models on the uploaded dataset using these configurations.
 
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/registered_models.png)
+
+Here, we made one run with and one run without early stopping to reduce computation times, the results are the same however.
+Once the training process has finished, we can have a look at the model performance
+
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/best_model.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/model_metrics.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/model_metrics2.png)
+
+
+
 3. Deploy the best model:
 
 - Select the top-performing model from the AutoML run.
-- Deploy it into production using Azure Container Instance (ACI) or Azure Kubernetes Service (AKS).
+- Deploy it into production using Azure Container Instance (ACI).
 
 4. Enable logging and Application Insights:
 
