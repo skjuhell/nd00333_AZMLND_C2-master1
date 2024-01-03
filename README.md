@@ -51,8 +51,6 @@ Once the model is deployed you can find it in the model section.
 
 By running the python script we enable the logging and get
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/logs_enabled.png)
-
-
 ![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/aplicaation_insights_enabled.png)
 
 
@@ -60,6 +58,14 @@ By running the python script we enable the logging and get
 
 - Generate a REST endpoint upon deploying the model.
 - Enable interaction with the deployed model by sending requests and receiving predictions.
+
+Further we want to use swagger to interact with our application. Therefore we execute the 'swagger.sh' and 'serve.py' scripts. We adapted the path of the container instance to run port 9000.
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/swagger.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/swagger2.png)
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/swagger3.png)
+We can test the setup by running the endpoint.py script which sends a post request for two samples, the model is supposed to predict.
+![](https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/endpoint.png)
+
 
 6. Create and Publish a Pipeline:
 
