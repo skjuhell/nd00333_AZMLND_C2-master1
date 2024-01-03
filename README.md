@@ -16,6 +16,9 @@ The diagram above illustrates the sequential flow of operations from initiation 
 - Upload the dataset into Azure Machine Learning Studio.
 - Accomplished either by providing a URL or uploading directly from a local folder.
 
+![]((https://github.com/skjuhell/nd00333_AZMLND_C2-master1/blob/main/screenshots/registered_datasets.png)
+In the screenshot we see the data set is ready and can be used in the next step for AutoML.
+
 2. AutoML run:
 
 - Configure parameters such as compute cluster, machine learning task type (e.g., classification), exit criterion, etc.
